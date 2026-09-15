@@ -19,8 +19,3 @@ $$J(w, b) = -\frac{1}{m} \sum_{i=1}^{m} \left[ y^{(i)} \log(\hat{y}^{(i)}) + (1 
 $$\frac{\partial J}{\partial w} = \frac{1}{m} X^T (\hat{y} - y)$$
 $$\frac{\partial J}{\partial b} = \frac{1}{m} \sum (\hat{y} - y)$$
 
-## Quickstart
-```bash
-git clone [https://github.com/your-username/logistic-regression-scratch.git](https://github.com/your-username/logistic-regression-scratch.git)
-cd logistic-regression-scratch
-python logistic_regression.py
